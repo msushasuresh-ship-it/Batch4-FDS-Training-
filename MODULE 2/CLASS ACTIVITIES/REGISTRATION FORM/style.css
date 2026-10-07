@@ -1,0 +1,94 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(blue, lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Registration Card */
+.Registration {
+    width: 50%;
+    max-width: 400px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading */
+.Registration h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+/* Labels */
+.Registration label {
+    display: block;
+    color: #444;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Fields */
+.Registration input[type="text"],
+.Registration input[type="email"],
+.Registration input[type="password"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Input Focus */
+.Registration input[type="text"]:focus,
+.Registration input[type="email"]:focus,
+.Registration input[type="password"]:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.4);
+}
+
+/* Register Button */
+.Registration input[type="submit"] {
+    width: 100%;
+    padding: 13px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+.Registration input[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+/* Button Click */
+.Registration input[type="submit"]:active {
+    transform: translateY(0);
+}
+
+

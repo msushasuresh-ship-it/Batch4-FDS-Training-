@@ -1,0 +1,12 @@
+Module - 1
+Class activities - 1
+
+1. How the Internet Works 
+The Internet is a global network that connects millions of computers, smartphones, servers, and other devices. It allows users to communicate, browse websites, send emails, watch videos, and share information.
+
+2. Logic Building Challenge 
+Logic Building Challenge is a problem-solving activity that improves programming and logical thinking skills.  It involves analyzing a problem and breaking it into smaller, manageable steps.  Participants develop algorithms and apply conditions, loops, and functions to solve problems.  It helps improve critical thinking, coding skills, and problem-solving ability.
+
+3. Real-world Scenario Mapping 
+Real-world Scenario Mapping connects programming concepts with real-life situations and problems.  It helps students understand how technology can be used to solve practical challenges.  Participants identify a real-world problem and map it to suitable logic, algorithms, and solutions.  It improves practical thinking, problem-solving skills, and application of programming knowledge.
+
