@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  padding: 18px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+.nav-links button {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.page {
+  text-align: center;
+  padding: 60px 30px;
+}
+
+.page h1 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.page p {
+  color: #666;
+  font-size: 17px;
+}
+
+.box {
+  background: white;
+  width: 500px;
+  max-width: 90%;
+  margin: 40px auto;
+  padding: 35px;
+  border-radius: 18px;
+
+  box-shadow: 0 5px 20px #00000015;
+}
+
+.box h2 {
+  color: #4f46e5;
+  margin-bottom: 15px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.card {
+  background: white;
+  width: 230px;
+  padding: 30px;
+  border-radius: 15px;
+
+  box-shadow: 0 5px 20px #00000015;
+}
+
+.card h2 {
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.view-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+
+  background: #4f46e5;
+  color: white;
+
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.view-btn:hover {
+  background: #3730a3;
+}
