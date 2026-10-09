@@ -1,0 +1,516 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Festivo | College Event Portal</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🎓 Festivo
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#announcements">Announcements</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">WELCOME TO</p>
+
+            <h1>FESTIVO <span>2026</span></h1>
+
+            <h2>College Festival</h2>
+
+            <p>
+                Experience the perfect blend of technology,
+                creativity, culture and entertainment.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#events" class="btn">Explore Events</a>
+                <a href="#register" class="btn secondary-btn">Register Now</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <p>ABOUT THE FESTIVAL</p>
+            <h2>Where Talent Meets Opportunity</h2>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-text">
+                <h3>Welcome to Festivo 2026 🎉</h3>
+
+                <p>
+                    Festivo is our college's annual festival where
+                    students come together to showcase their talents,
+                    creativity and technical skills.
+                </p>
+
+                <p>
+                    Participate in exciting technical, cultural,
+                    sports and entertainment events and create
+                    unforgettable memories.
+                </p>
+            </div>
+
+            <div class="about-cards">
+
+                <div class="info-card">
+                    <h3>20+</h3>
+                    <p>Events</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>500+</h3>
+                    <p>Participants</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>10+</h3>
+                    <p>Prizes</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Events Section -->
+    <section id="events" class="section events-section">
+
+        <div class="section-title">
+            <p>EXPLORE</p>
+            <h2>Our Events</h2>
+        </div>
+
+        <div class="events-container">
+
+            <!-- Event 1 -->
+            <div class="event-card">
+
+                <div class="event-icon">💻</div>
+
+                <h3>Code Clash</h3>
+
+                <p>
+                    Test your programming skills and
+                    solve challenging coding problems.
+                </p>
+
+                <span>Technical Event</span>
+
+                <button onclick="registerEvent('Code Clash')">
+                    Register
+                </button>
+
+            </div>
+
+
+            <!-- Event 2 -->
+            <div class="event-card">
+
+                <div class="event-icon">🎤</div>
+
+                <h3>Battle of Bands</h3>
+
+                <p>
+                    Show your musical talent and compete
+                    with the best college bands.
+                </p>
+
+                <span>Cultural Event</span>
+
+                <button onclick="registerEvent('Battle of Bands')">
+                    Register
+                </button>
+
+            </div>
+
+
+            <!-- Event 3 -->
+            <div class="event-card">
+
+                <div class="event-icon">💃</div>
+
+                <h3>Dance Fiesta</h3>
+
+                <p>
+                    Express yourself through dance and
+                    compete for exciting prizes.
+                </p>
+
+                <span>Cultural Event</span>
+
+                <button onclick="registerEvent('Dance Fiesta')">
+                    Register
+                </button>
+
+            </div>
+
+
+            <!-- Event 4 -->
+            <div class="event-card">
+
+                <div class="event-icon">🏏</div>
+
+                <h3>Cricket Cup</h3>
+
+                <p>
+                    Build your team and compete in
+                    the ultimate cricket tournament.
+                </p>
+
+                <span>Sports Event</span>
+
+                <button onclick="registerEvent('Cricket Cup')">
+                    Register
+                </button>
+
+            </div>
+
+
+            <!-- Event 5 -->
+            <div class="event-card">
+
+                <div class="event-icon">🎨</div>
+
+                <h3>Art Attack</h3>
+
+                <p>
+                    Unleash your imagination through
+                    art, design and creativity.
+                </p>
+
+                <span>Creative Event</span>
+
+                <button onclick="registerEvent('Art Attack')">
+                    Register
+                </button>
+
+            </div>
+
+
+            <!-- Event 6 -->
+            <div class="event-card">
+
+                <div class="event-icon">🧠</div>
+
+                <h3>Quiz Master</h3>
+
+                <p>
+                    Challenge your knowledge and compete
+                    against the smartest minds.
+                </p>
+
+                <span>Technical Event</span>
+
+                <button onclick="registerEvent('Quiz Master')">
+                    Register
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="section">
+
+        <div class="section-title">
+            <p>EVENT TIMELINE</p>
+            <h2>Festival Schedule</h2>
+        </div>
+
+        <div class="schedule-container">
+
+            <div class="schedule-item">
+                <div class="date">
+                    <strong>10</strong>
+                    <small>OCT</small>
+                </div>
+
+                <div>
+                    <h3>Inauguration Ceremony</h3>
+                    <p>09:00 AM | Main Auditorium</p>
+                </div>
+            </div>
+
+
+            <div class="schedule-item">
+                <div class="date">
+                    <strong>10</strong>
+                    <small>OCT</small>
+                </div>
+
+                <div>
+                    <h3>Technical Events</h3>
+                    <p>10:00 AM | Computer Lab</p>
+                </div>
+            </div>
+
+
+            <div class="schedule-item">
+                <div class="date">
+                    <strong>11</strong>
+                    <small>OCT</small>
+                </div>
+
+                <div>
+                    <h3>Cultural Events</h3>
+                    <p>02:00 PM | Open Auditorium</p>
+                </div>
+            </div>
+
+
+            <div class="schedule-item">
+                <div class="date">
+                    <strong>12</strong>
+                    <small>OCT</small>
+                </div>
+
+                <div>
+                    <h3>Grand Finale</h3>
+                    <p>05:00 PM | College Ground</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Announcements -->
+    <section id="announcements" class="section announcements">
+
+        <div class="section-title">
+            <p>STAY UPDATED</p>
+            <h2>Latest Announcements</h2>
+        </div>
+
+        <div class="announcement-container">
+
+            <div class="announcement-card">
+                <span>📢 NEW</span>
+                <h3>Registration is Open!</h3>
+                <p>
+                    Students can now register for their
+                    favorite Festivo events.
+                </p>
+            </div>
+
+            <div class="announcement-card">
+                <span>🏆 PRIZES</span>
+                <h3>Exciting Prizes</h3>
+                <p>
+                    Winners will receive exciting prizes
+                    and certificates.
+                </p>
+            </div>
+
+            <div class="announcement-card">
+                <span>📅 UPDATE</span>
+                <h3>Schedule Released</h3>
+                <p>
+                    The complete event schedule is now
+                    available on the portal.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Registration Section -->
+    <section id="register" class="section register-section">
+
+        <div class="section-title">
+            <p>JOIN THE FESTIVAL</p>
+            <h2>Event Registration</h2>
+        </div>
+
+        <form id="registrationForm" class="registration-form">
+
+            <div class="input-group">
+                <label>Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+            </div>
+
+
+            <div class="input-group">
+                <label>College Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+            </div>
+
+
+            <div class="input-group">
+                <label>Department</label>
+
+                <select id="department" required>
+
+                    <option value="">Select Department</option>
+                    <option>CSE</option>
+                    <option>AIML</option>
+                    <option>ECE</option>
+                    <option>EEE</option>
+                    <option>IT</option>
+                    <option>MECH</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="input-group">
+                <label>Select Event</label>
+
+                <select id="event" required>
+
+                    <option value="">Choose an Event</option>
+                    <option>Code Clash</option>
+                    <option>Battle of Bands</option>
+                    <option>Dance Fiesta</option>
+                    <option>Cricket Cup</option>
+                    <option>Art Attack</option>
+                    <option>Quiz Master</option>
+
+                </select>
+
+            </div>
+
+
+            <button type="submit" class="submit-btn">
+                Submit Registration
+            </button>
+
+        </form>
+
+        <p id="successMessage"></p>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Contact Us</h2>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Festivo Organizing Team</h3>
+
+                <p>📍 Prathyusha Engineering College</p>
+
+                <p>📧 festivo@college.edu</p>
+
+                <p>📞 +91 98765 43210</p>
+
+            </div>
+
+
+            <form class="contact-form" id="contactForm">
+
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    rows="5"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+                <button type="submit" class="submit-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>🎓 Festivo 2026</h3>
+
+        <p>
+            Celebrate. Compete. Create Memories.
+        </p>
+
+        <p class="copyright">
+            © 2026 Festivo College Festival. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
