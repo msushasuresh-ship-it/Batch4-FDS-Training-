@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Weather & Travel Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🌤️ Smart Weather & Travel</h1>
+        <p>Check the weather and plan your perfect trip</p>
+    </header>
+
+    <main>
+
+        <!-- Search -->
+        <section class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name...">
+            <button onclick="getWeather()">Search</button>
+        </section>
+
+        <!-- Error Message -->
+        <p id="error"></p>
+
+        <!-- Current Weather -->
+        <section id="weatherSection" class="weather-section">
+
+            <div class="current-weather">
+                <h2 id="cityName">Chennai</h2>
+
+                <div class="weather-icon" id="weatherIcon">☀️</div>
+
+                <h3 id="temperature">--°C</h3>
+
+                <p id="condition">Loading...</p>
+
+                <div class="weather-details">
+                    <div>
+                        💧
+                        <span id="humidity">--%</span>
+                        <small>Humidity</small>
+                    </div>
+
+                    <div>
+                        💨
+                        <span id="wind">-- km/h</span>
+                        <small>Wind</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Travel Suggestion -->
+            <div class="travel-card">
+                <h2>✈️ Travel Suggestion</h2>
+                <p id="suggestion">
+                    Search a city to get travel recommendations.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Forecast -->
+        <section class="forecast-section">
+
+            <h2>📅 5-Day Forecast</h2>
+
+            <div id="forecast" class="forecast-container">
+                <!-- Forecast cards appear here -->
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+1. Create a GitHub repository for the project.
+2. Create a separate branch for each team member.
+3. Each member works on their own branch and writes code.
+4. Commit the changes with a message.
+5. Push the branch to GitHub.
+6. Create a Pull Request from the branch to the main branch.
+7. Another team member reviews the code and gives comments.
+8. Fix the comments if needed and push the changes again.
+9. After approval, merge the Pull Request into the main branch.
+10. GitHub finally shows the updated project in the main branch.

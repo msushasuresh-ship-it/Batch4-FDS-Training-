@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    color: #222;
+}
+
+
+/* Header */
+
+header {
+    background: #172554;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+header h2 {
+    margin-bottom: 5px;
+}
+
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    border-radius: 20px;
+    color: rgb(3, 3, 3);
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: rgb(25, 191, 197);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+/* Users */
+
+.users {
+    border-width: 600px;
+    padding: 50px 8%;
+    text-align: center;
+}
+
+.users h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
+/* User Cards */
+
+#userContainer {
+    display: grid;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    grid-template-columns:
+        repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+
+    padding: 25px;
+    border-radius: 15px;
+
+    text-align: left;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card .icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #555;
+    margin: 7px 0;
+}
+
+.card strong {
+    color: #222;
+}
+
+
+/* Footer */
+
+footer {
+    background: #172554;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 30px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 800px) {
+
+    #userContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+
+    #userContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,10 @@
+1. Open the given JavaScript application in VS Code.
+2. Run the application and check the output.
+3. Identify the errors or bugs in the application.
+4. Use the Browser Console to find error messages.
+5. Check the JavaScript code and find the cause of the error.
+6. Fix the incorrect code.
+7. Run the application again and test it.
+8. Check whether the application works correctly.
+9. Save the corrected code.
+10. The final application should run without errors.
